@@ -20,7 +20,7 @@
   --normal-fs: 1rem;
   --medium-fs: 0.875rem;
   --small-fs: 0.725rem;
-  --tiny-fs: 0.625rem;
+  --tiny-fs: 0.695rem;
   --h1-fs: 2.25rem;
   --h2-fs: 1.5rem;
   --h3-fs: 1.25rem;
@@ -52,7 +52,7 @@
     --large-fs: 2.75rem;
     --normal-fs: 0.938rem;
     --medium-fs: 0.813rem;
-    --small-fs: 0.75rem;
+    --small-fs: 0.90rem;
     --tiny-fs: 0.625rem;
     --h1-fs: 1.5rem;
     --h2-fs: 1.25rem;
@@ -176,13 +176,25 @@ h3 {
   }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--nav-height) 0;
+  }
+
+  .section {
+    padding: 2rem 0 4rem;
+  }
+
+  .section-subtitle {
+    margin-bottom: var(--mb-3);
+  }
+}
 
 @media screen and (max-width: 576px) {}
 
 @media screen and (max-width: 350px) {
   .container {
     margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
+    margin-right: var(--mb-1-5);
   }
 }

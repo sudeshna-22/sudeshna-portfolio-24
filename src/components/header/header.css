@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: var(--small-fs);
+  font-size: var(--medium-fs);
   color: var(--title);
   font-weight: var(--medium-fw);
   transition: .3s;
