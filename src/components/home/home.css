@@ -1,5 +1,5 @@
 .home {
-  height: 80vh;
+  padding-bottom: 4rem;
 }
 
 .home-content {
@@ -92,6 +92,15 @@
   }
 
   .home-subtitle {
+    padding-left: 1rem;
+    /* margin-bottom: var(--mb-1); */
+  }
+
+  .home-subtitle::before {
+    display: none;
+  }
+
+  /* .home-subtitle {
     padding-left: 3.75rem;
     margin-bottom: var(--mb-1);
   }
@@ -99,11 +108,11 @@
   .home-subtitle::before {
     width: 42px;
     top: 0.8rem;
-  }
+  } */
 
   .home-description {
     max-width: initial;
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-2);
   }
 
   .home-img {
@@ -139,8 +148,8 @@
 
 @media screen and (max-width: 350px) {
   .home-img {
-    width: 180px;
-    height: 180px;
+    width: 240px;
+    height: 240px;
   }
 
   .home-female-icon {

@@ -1,5 +1,6 @@
 .about {
   background-color: #FFEFEF;
+  padding-bottom: 5rem;
 }
 
 .about-container {
@@ -83,7 +84,7 @@
   }
 
   .about-img {
-    width: 60%;
+    width: 40%;
   }
 
   .about-container-box {
@@ -105,6 +106,11 @@
 }
 
 @media screen and (max-width: 576px) {
+
+  .about-img {
+    width: 60%;
+  }
+
   .about-info {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -115,6 +121,11 @@
 }
 
 @media screen and (max-width: 350px) {
+
+  .about-img {
+    width: 80%;
+  }
+
   .about-info {
     grid-template-columns: repeat(2, 1fr);
   }

@@ -1,0 +1,8 @@
+footer {
+  width: 100%;
+  height: max-content;
+  padding: 4% 5% 0%;
+  text-align: end;
+  background-color: #DCDBEE;
+  clip-path: polygon(38% 48%, 64% 20%, 100% 0, 100% 100%, 0 100%, 0 58%);
+}
