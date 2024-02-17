@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&display=swap'); */
 
 /* variables styling */
 :root {
@@ -100,9 +101,41 @@ textarea {
   font-size: var(--normal-fs);
 }
 
-body {
+/* body {
   background-color: var(--body-color);
   color: var(--text-color);
+} */
+
+body {
+  min-height: 100vh;
+  /* background-color: var(--background-color); */
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+body::after {
+  content: "";
+  width: 125px;
+  height: 125px;
+  background-color: #C5C3E3;
+  border-radius: 50%;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 84%;
+  right: 92%;
+}
+
+body::before {
+  content: "";
+  width: 184px;
+  height: 184px;
+  background-color: #9DE3F3;
+  border-radius: 50%;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 98%;
+  right: 56%;
 }
 
 h1,
@@ -115,18 +148,18 @@ h3 {
 /* reusable class */
 
 .section {
-  padding: 6rem 0 2rem;
+  padding: 3rem 0 2rem;
 }
 
 .section-title {
   font-size: var(--h1-fs);
-  color: var(--text-color);
+  color: var(--title-d);
 }
 
 .section-subtitle {
   display: block;
   font-size: var(--medium-fs);
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-0-25);
 }
 
 .section-title,
@@ -142,15 +175,15 @@ h3 {
 
 .button {
   display: inline-block;
-  background-color: var(--title);
+  background-color: var(--title-dark);
   color: var(--white);
-  padding: 1.25rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 1rem;
   font-weight: var(--medium-fw);
 }
 
 .button:hover {
-  background-color: var(--title-dark);
+  background-color: var(--title);
 }
 
 .button-icon {
@@ -174,6 +207,10 @@ h3 {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+
+  /* .button {
+    padding: 1rem 1.75rem;
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -193,8 +230,17 @@ h3 {
 @media screen and (max-width: 576px) {}
 
 @media screen and (max-width: 350px) {
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1-5);
   }
 }
+
+/* @media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 350px) {} */

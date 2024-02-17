@@ -1,11 +1,31 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./header.css"
 
 const Header = () => {
   /*toggle menu */
   const [Toggle, showMenu] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+  const [headerStyle, setHeaderStyle] = useState({ backgroundColor: 'transparent' });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    setHeaderStyle({ backgroundColor: scrollY > 0 ? 'white' : 'transparent', boxShadow: scrollY > 0 ? '0 2px 4px rgba(0, 0, 0, 0.1)' : 'none', transition: '.4s' });
+  }, [scrollY]);
+
+
   return (
-    <header className="header">
+    <header className="header" style={headerStyle}>
       <nav className="nav container">
         <a href="index.html" className="nav-logo">S.P.</a>
 
