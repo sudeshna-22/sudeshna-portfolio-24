@@ -20,7 +20,7 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <span className="section-subtitle">
-        Click to copy! :) <span className="copied-text">{copiedText}</span>
+        Click it to copy the details! :) <span className="copied-text">{copiedText}</span>
       </span>
       <h2 className="section-title">Get In Touch</h2>
       <div className="contact-container container grid">
