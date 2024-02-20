@@ -22,7 +22,7 @@ const Contact = () => {
       <span className="section-subtitle">
         Click it to copy the details! :) <span className="copied-text">{copiedText}</span>
       </span>
-      <h2 className="section-title">Get In Touch</h2>
+      <h2 className="section-title">Let's Work Together</h2>
       <div className="contact-container container grid">
         <div className="contact-info grid">
           <div className="contact-container-box" onClick={() => copyToClipboard('sudeshnapandey8@gmail.com')}>
