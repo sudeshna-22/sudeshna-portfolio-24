@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sudeshna-portfolio-24/static/css/main.7d66e8f5.css",
-    "main.js": "/sudeshna-portfolio-24/static/js/main.5e6652a3.js",
+    "main.js": "/sudeshna-portfolio-24/static/js/main.ca103023.js",
     "static/js/592.88f2d889.chunk.js": "/sudeshna-portfolio-24/static/js/592.88f2d889.chunk.js",
     "static/media/banner.png": "/sudeshna-portfolio-24/static/media/banner.ec46bafc44960b7f80cd.png",
     "static/media/belieff.png": "/sudeshna-portfolio-24/static/media/belieff.bbd6d34954e81bae5123.png",
@@ -15,11 +15,11 @@
     "static/media/wave.png": "/sudeshna-portfolio-24/static/media/wave.2ab58f9e5458467239b1.png",
     "index.html": "/sudeshna-portfolio-24/index.html",
     "main.7d66e8f5.css.map": "/sudeshna-portfolio-24/static/css/main.7d66e8f5.css.map",
-    "main.5e6652a3.js.map": "/sudeshna-portfolio-24/static/js/main.5e6652a3.js.map",
+    "main.ca103023.js.map": "/sudeshna-portfolio-24/static/js/main.ca103023.js.map",
     "592.88f2d889.chunk.js.map": "/sudeshna-portfolio-24/static/js/592.88f2d889.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d66e8f5.css",
-    "static/js/main.5e6652a3.js"
+    "static/js/main.ca103023.js"
   ]
 }
