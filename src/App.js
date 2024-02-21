@@ -10,23 +10,25 @@ import Testimonial from './components/testimonial/Testimonial';
 import Footer from './components/footer/Footer';
 import Belief from './components/additional/Belief';
 import Wave from './components/additional/Wave';
+import UnderDevelopment from './components/additional/UnderDevelopment';
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className='main'>
-        <Home />
+        {/* <Home />
         <About />
-        <Interest />
+        <Interest /> */}
         {/* <Wave />
         <Belief />
         <Wave /> */}
-        <Expertise />
+        {/* <Expertise />
         <Project />
         <Testimonial />
         <Contact />
-        <Footer />
+        <Footer /> */}
+        <UnderDevelopment />
       </main>
     </>
   );
