@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sudeshna-portfolio-24/static/css/main.7d66e8f5.css",
+    "main.js": "/sudeshna-portfolio-24/static/js/main.5e6652a3.js",
+    "static/js/592.88f2d889.chunk.js": "/sudeshna-portfolio-24/static/js/592.88f2d889.chunk.js",
+    "static/media/banner.png": "/sudeshna-portfolio-24/static/media/banner.ec46bafc44960b7f80cd.png",
+    "static/media/belieff.png": "/sudeshna-portfolio-24/static/media/belieff.bbd6d34954e81bae5123.png",
+    "static/media/illustration.png": "/sudeshna-portfolio-24/static/media/illustration.3e257f73a2025fea9710.png",
+    "static/media/smritee.jpg": "/sudeshna-portfolio-24/static/media/smritee.410123edc1ef922390bf.jpg",
+    "static/media/aadarsh.jpg": "/sudeshna-portfolio-24/static/media/aadarsh.4f99a2467bd2821de3ea.jpg",
+    "static/media/Sudeshna-Pandey-CV.pdf": "/sudeshna-portfolio-24/static/media/Sudeshna-Pandey-CV.f3474d5fce01859835dc.pdf",
+    "static/media/priyanka.jpg": "/sudeshna-portfolio-24/static/media/priyanka.2c0d9468b85241caf1a3.jpg",
+    "static/media/favicon.png": "/sudeshna-portfolio-24/static/media/favicon.fe9b01016d1602c40b26.png",
+    "static/media/expertise.png": "/sudeshna-portfolio-24/static/media/expertise.f121942b0fa69fcfba93.png",
+    "static/media/wave.png": "/sudeshna-portfolio-24/static/media/wave.2ab58f9e5458467239b1.png",
+    "index.html": "/sudeshna-portfolio-24/index.html",
+    "main.7d66e8f5.css.map": "/sudeshna-portfolio-24/static/css/main.7d66e8f5.css.map",
+    "main.5e6652a3.js.map": "/sudeshna-portfolio-24/static/js/main.5e6652a3.js.map",
+    "592.88f2d889.chunk.js.map": "/sudeshna-portfolio-24/static/js/592.88f2d889.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d66e8f5.css",
+    "static/js/main.5e6652a3.js"
+  ]
+}
