@@ -22,7 +22,7 @@
   --medium-fs: 0.875rem;
   --small-fs: 0.725rem;
   --tiny-fs: 0.695rem;
-  --h1-fs: 2.25rem;
+  --h1-fs: 1.95rem;
   --h2-fs: 1.5rem;
   --h3-fs: 1.25rem;
 
@@ -151,12 +151,14 @@ h3 {
   padding: 3rem 0 2rem;
 }
 
-.section-title {
+.section-title,
+.section-title-sub {
   font-size: var(--h1-fs);
   color: var(--title-d);
 }
 
-.section-subtitle {
+.section-subtitle,
+.section-subtitle-sub {
   display: block;
   font-size: var(--medium-fs);
   margin-bottom: var(--mb-0-25);
@@ -165,6 +167,11 @@ h3 {
 .section-title,
 .section-subtitle {
   text-align: center;
+}
+
+.section-title-sub,
+.section-subtitle-sub {
+  text-align: start;
 }
 
 .container {

@@ -23,6 +23,7 @@ const About = () => {
             <i class="uil uil-file-download-alt"></i>
           </a>
         </div>
+
       </div>
     </section>
   )

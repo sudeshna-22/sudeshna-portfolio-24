@@ -11,24 +11,28 @@ import Footer from './components/footer/Footer';
 import Belief from './components/additional/Belief';
 import Wave from './components/additional/Wave';
 import UnderDevelopment from './components/additional/UnderDevelopment';
+import Passion from './components/passion/Passion';
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main className='main'>
-        {/* <Home />
+        <Home />
         <About />
-        <Interest /> */}
-        {/* <Wave />
-        <Belief />
-        <Wave /> */}
-        {/* <Expertise />
+        {/* <Wave /> */}
+        <Interest />
+        <Wave />
+
+
+        {/* <Belief /> */}
+
+        <Expertise />
         <Project />
         <Testimonial />
         <Contact />
-        <Footer /> */}
-        <UnderDevelopment />
+        <Footer />
+        {/* <UnderDevelopment /> */}
       </main>
     </>
   );

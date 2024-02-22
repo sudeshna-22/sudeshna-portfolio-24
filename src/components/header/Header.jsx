@@ -43,7 +43,7 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <a href="#interest" className="nav-link">
-                <i className="uil uil-heart-sign nav-icon"></i>Field of Interest
+                <i className="uil uil-heart-sign nav-icon"></i>Interest & Passion
               </a>
             </li>
             <li className="nav-item">
