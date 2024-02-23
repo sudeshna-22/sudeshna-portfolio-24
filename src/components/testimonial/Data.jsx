@@ -8,20 +8,21 @@ export const Data = [
     image: Image1,
     title: "Aadarsh Shiwakoti",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results."
+      "Reliable and hardworking, every project aspect was carefully executed, resulting in excellent outcomes."
   },
   {
     id: 2,
-    image: Image2,
-    title: "Priyanka Upreti",
-    description:
-      "A friendly client, all aspects of the project were followed step by step and with good results."
-  },
-  {
-    id: 3,
     image: Image3,
     title: "Smritee Mainali",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results."
+      "Working with Sudeshna was a pleasure; meeting all my expectations and providing exactly what I needed."
   },
+  {
+    id: 3,
+    image: Image2,
+    title: "Priyanka Upreti",
+    description:
+      "Sudeshna's friendly approach and keen eye for detail ensured seamless project execution."
+  },
+
 ];

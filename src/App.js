@@ -8,27 +8,29 @@ import Project from './components/projects/Project';
 import Contact from './components/contact/Contact';
 import Testimonial from './components/testimonial/Testimonial';
 import Footer from './components/footer/Footer';
-import Belief from './components/additional/Belief';
 import Wave from './components/additional/Wave';
-import UnderDevelopment from './components/additional/UnderDevelopment';
+import SocialMedia from './components/footer/SocialMedia';
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main className='main'>
-        {/* <Home />
+        <Home />
         <About />
-        <Interest /> */}
-        {/* <Wave />
-        <Belief />
-        <Wave /> */}
-        {/* <Expertise />
+        <Interest />
+        <Wave />
+
+        <Expertise />
+        {/* <Belief /> */}
+        {/* <Wave /> */}
         <Project />
+        {/* <WaveWhite /> */}
         <Testimonial />
         <Contact />
-        <Footer /> */}
-        <UnderDevelopment />
+        <SocialMedia />
+        <Footer />
+        {/* <UnderDevelopment /> */}
       </main>
     </>
   );

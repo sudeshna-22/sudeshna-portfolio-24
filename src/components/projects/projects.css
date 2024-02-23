@@ -1,77 +1,77 @@
-.projects-container {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  /* Set width of left panel and make right panel take remaining space */
-  gap: 10px;
+.projects {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: #FFEFEF;
+  border-bottom: 3px solid #fff;
+}
+
+.projects .section-title {
+  margin-bottom: 2.85rem;
+}
+
+.projects .swiper {
+  width: 100%;
   height: 50vh;
-  /* Adjust spacing between panels */
+  padding: 0 1.5rem;
 }
 
-.left-panel {
-  width: 200px;
-  /* Adjust width as needed */
-  background-color: lightblue;
-  /* Just for visualization */
+.projects .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 2rem;
+  cursor: pointer;
 }
 
-.right-panel {
-  flex: 1;
-  /* Takes up remaining space */
-  overflow-y: auto;
-  /* Enable vertical scrolling */
-  background-color: lightgreen;
-  /* Just for visualization */
-  padding: 0 10px;
-  /* Optional: Add padding for better readability */
-  /* Hide scrollbar */
-  scrollbar-width: thin;
-  -ms-overflow-style: none;
+.projects .swiper-slide img {
+  display: block;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: .5rem;
 }
 
-/* Hide scrollbar buttons */
-.right-panel::-webkit-scrollbar-button {
-  display: none;
+.projects-container {
+  padding: 2.5rem 2.5rem;
 }
 
-/* Define the scrollbar track */
-.right-panel::-webkit-scrollbar-track {
-  background-color: transparent;
-  /* Set the background color of the scrollbar track */
+.top-0 {
+  padding-top: 0 !important;
 }
 
-/* Define the scrollbar thumb */
-.right-panel::-webkit-scrollbar-thumb {
-  background-color: #888;
-  /* Set the color of the scrollbar thumb */
-  border-radius: 10px;
-  /* Set the border radius of the scrollbar thumb */
+.project-content {
+  padding: 2.5rem 2.5rem;
+  column-gap: 3rem;
 }
 
-/* Define the scrollbar thumb color on hover */
-.right-panel::-webkit-scrollbar-thumb:hover {
-  background-color: #666;
-  /* Set the color of the scrollbar thumb on hover */
+.project-title {
+  margin-bottom: 0.7rem;
 }
 
-/* Define the scrollbar thumb color when dragging */
-.right-panel::-webkit-scrollbar-thumb:active {
-  background-color: #555;
-  /* Set the color of the scrollbar thumb when dragging */
+@media screen and (max-width: 992px) {
+  .project-content {
+    row-gap: 1rem;
+  }
+
+  .projects .swiper-slide img {
+    width: 40%;
+  }
+
+  .projects .section-title {
+    margin-bottom: 2.5rem;
+  }
+
+
 }
 
-/* Set scrollbar behavior on Firefox */
-.right-panel {
-  scrollbar-width: thin;
-  scrollbar-color: #888 transparent;
-}
+@media screen and (max-width: 576px) {
+  .projects .swiper-slide img {
+    display: none;
+  }
 
-/* Hide scrollbar track and buttons on IE and Edge */
-.right-panel {
-  -ms-overflow-style: none;
-}
-
-/* Define scrollbar thumb color on IE and Edge */
-.right-panel::-ms-thumb {
-  background-color: #888;
-  border-radius: 10px;
+  .project-content {
+    padding: 2.5rem 1rem;
+    column-gap: 3rem;
+  }
 }

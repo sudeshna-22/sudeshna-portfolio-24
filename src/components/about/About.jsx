@@ -17,12 +17,13 @@ const About = () => {
         <div className='about-data'>
           <Information />
 
-          <p className="about-description">Developer I create web pages with UI / UX user interface, I have yeares of experience and many cliernts are happy with the projects carried out.</p>
+          <p className="about-description"> I enjoy shaping frontend interfaces and the strategic brainstorming involved in backend development. I'm driven by a passion for data analytics and satisfying clients through freelancing.</p>
 
           <a download href={CV} className="button button-flex">My Resume
             <i class="uil uil-file-download-alt"></i>
           </a>
         </div>
+
       </div>
     </section>
   )

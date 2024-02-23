@@ -5,7 +5,7 @@
 
 .about-container {
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 4rem;
+  padding-top: 3.5rem;
   align-items: center;
   column-gap: 4rem;
 }
@@ -14,7 +14,7 @@
   width: 80%;
   border-radius: 1.5rem;
   justify-self: center;
-  animation: profile-animate 8s ease-in-out infinite 1s;
+  animation: profile-animate 4s ease-in-out infinite 1s;
 }
 
 @keyframes profile-animate {
@@ -84,7 +84,7 @@
   }
 
   .about-img {
-    width: 40%;
+    width: 50%;
   }
 
   .about-container-box {
@@ -93,6 +93,7 @@
 
   .about-data {
     text-align: center;
+    padding-top: 2rem;
   }
 
   .about-info {
@@ -104,6 +105,7 @@
     margin-bottom: 2rem;
   }
 }
+
 
 @media screen and (max-width: 576px) {
 
