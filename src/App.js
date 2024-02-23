@@ -8,10 +8,8 @@ import Project from './components/projects/Project';
 import Contact from './components/contact/Contact';
 import Testimonial from './components/testimonial/Testimonial';
 import Footer from './components/footer/Footer';
-import Belief from './components/additional/Belief';
 import Wave from './components/additional/Wave';
-import UnderDevelopment from './components/additional/UnderDevelopment';
-import Passion from './components/passion/Passion';
+import SocialMedia from './components/footer/SocialMedia';
 
 function App() {
   return (
@@ -27,8 +25,10 @@ function App() {
         {/* <Belief /> */}
         {/* <Wave /> */}
         <Project />
+        {/* <WaveWhite /> */}
         <Testimonial />
         <Contact />
+        <SocialMedia />
         <Footer />
         {/* <UnderDevelopment /> */}
       </main>

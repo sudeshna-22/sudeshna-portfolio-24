@@ -18,7 +18,7 @@ const Home = () => {
             <h3 className="home-subtitle">Software Engineer</h3>
             <p className="home-description">Hello! I'am Sudeshna Pandey. This is description for a while now please modify this!</p>
 
-            <a href="#contact" className="button button-flex">Contact Me <i className="uil uil-telegram-alt"></i></a>
+            <a href="#expertise" className="button button-flex">My Expertise <i className="uil uil-briefcase"></i></a>
           </div>
         </div>
       </div>

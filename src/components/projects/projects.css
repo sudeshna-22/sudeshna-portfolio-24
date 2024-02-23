@@ -1,20 +1,62 @@
+.projects {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: #FFEFEF;
+  border-bottom: 3px solid #fff;
+}
+
+.projects .section-title {
+  margin-bottom: 2.85rem;
+}
+
 .projects .swiper {
   width: 100%;
   height: 50vh;
+  padding: 0 1.5rem;
 }
 
 .projects .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: red;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
+  border-radius: 2rem;
+  cursor: pointer;
 }
 
 .projects .swiper-slide img {
   display: block;
-  width: 100%;
+  width: 50%;
   height: 100%;
   object-fit: cover;
+  border-radius: .5rem;
+}
+
+.projects-container {
+  padding: 2.5rem 2.5rem;
+}
+
+.project-content {
+  padding: 2.5rem 2.5rem;
+  column-gap: 3rem;
+}
+
+.project-title {
+  margin-bottom: 0.7rem;
+}
+
+@media screen and (max-width: 992px) {
+  .project-content {
+    row-gap: 1rem;
+  }
+
+  .projects .swiper-slide img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects .swiper-slide img {
+    display: none;
+  }
 }

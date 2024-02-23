@@ -1,3 +1,7 @@
+.contact {
+  border-bottom: 1px solid #ddd;
+}
+
 .contact-container {
   grid-template-columns: repeat(2, 1fr);
   padding-top: 3rem;
@@ -61,14 +65,14 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .contact-info {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px) {
   .contact-info {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
