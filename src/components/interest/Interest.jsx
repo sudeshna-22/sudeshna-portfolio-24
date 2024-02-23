@@ -17,12 +17,12 @@ const Interest = () => {
         Professional Thrills & What Drives Me
       </span>
       {/* <h2 className="section-title-sub"> Work Interests & Personal Passion</h2> */}
-      <h2 className="section-title"> Interests & Passion</h2>
+      <h2 className="section-title"> Interest & Passion</h2>
 
       <div class="experience-details-container container">
         <div class="interest-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title"> <i className="bx bx-briefcase icon"></i> Professional Interests</h2>
+            <h2 class="experience-sub-title"> <i className="uil uil-folder-heart icon"></i> Professional Interests</h2>
             <div class="article-container">
               <article>
                 <img
@@ -71,7 +71,7 @@ const Interest = () => {
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title"><i className="bx bx-briefcase icon"></i> Personal Passions</h2>
+            <h2 class="experience-sub-title"><i className="uil uil-book-reader icon"></i> Personal Passions</h2>
             <div class="article-container">
               <article>
                 <img

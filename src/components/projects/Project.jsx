@@ -15,7 +15,7 @@ const Project = () => {
   return (
     <section className="projects section" id="projects">
       <span className="section-subtitle">
-        Discover My Projects
+        Recent Live Projects
       </span>
       <h2 className="section-title">Projects</h2>
       <Swiper
@@ -23,10 +23,10 @@ const Project = () => {
         slidesPerView={1}
         spaceBetween={30}
         mousewheel={true}
-        autoplay={{
-          delay: 2000,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // }}
         pagination={{
           clickable: true,
         }}
@@ -39,7 +39,7 @@ const Project = () => {
             <SwiperSlide className='project-content' key={id}>
               {/* <img src={image} alt="sudeshna's img" className="project-img" /> */}
 
-              <div className='about-data'>
+              <div className='about-data top-0'>
                 <h2 className='project-title'>{title}</h2>
                 <p className="about-description">{description}</p>
 

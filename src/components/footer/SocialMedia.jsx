@@ -11,22 +11,22 @@ const SocialMedia = () => {
 
         <ul className="section-link-list">
           <li>
-            <a href="#" className="section-footer-link">About</a>
+            <a href="#about" className="section-footer-link">About</a>
           </li>
           {/* <li>
             <a href="#" className="section-footer-link">Interest & Passion</a>
           </li> */}
           <li>
-            <a href="#" className="section-footer-link">Expertise</a>
+            <a href="#expertise" className="section-footer-link">Expertise</a>
           </li>
           <li>
-            <a href="#" className="section-footer-link">Projects</a>
+            <a href="#projects" className="section-footer-link">Projects</a>
           </li>
         </ul>
         <div className="sm-link-list">
-          <a href="" className="sm-link" target='_blank'><i className="bx bxl-linkedin"></i></a>
-          <a href="" className="sm-link" target='_blank'><i className="bx bxl-facebook"></i></a>
-          <a href="" className="sm-link" target='_blank'><i className="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/sudeshna-pandey-a2024b188/" className="sm-link" target='_blank' noopener noreferrer><i className="bx bxl-linkedin"></i></a>
+          <a href="https://www.facebook.com/shrutii3101/" className="sm-link" target='_blank' noopener noreferrer><i className="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/sudeshna_ev/" className="sm-link" target='_blank' noopener noreferrer><i className="bx bxl-instagram"></i></a>
         </div>
       </div>
 

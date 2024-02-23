@@ -19,7 +19,7 @@ const Expertise = () => {
             <section className="col">
 
               <header className="title">
-                <i className="bx bx-briefcase icon"></i>  <h2>Experience</h2>
+                <i className="uil uil-briefcase icon"></i>  <h2>Industrial Experience</h2>
               </header>
 
               <div className="contents">
@@ -51,7 +51,7 @@ const Expertise = () => {
             <section className="col">
 
               <header className="title">
-                <i className="bx bx-briefcase icon"></i> <h2>Education</h2>
+                <i className="uil uil-graduation-cap icon"></i> <h2>Education</h2>
               </header>
 
               <div className="contents">

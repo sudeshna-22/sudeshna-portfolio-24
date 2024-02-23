@@ -47,7 +47,7 @@
 .active,
 .nav-link:hover {
   color: var(--title-dark);
-  /* font-weight: var(--bold-fw); */
+  font-weight: 500;
 }
 
 /* responsive break points */

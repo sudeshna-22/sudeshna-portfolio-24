@@ -36,6 +36,10 @@
   padding: 2.5rem 2.5rem;
 }
 
+.top-0 {
+  padding-top: 0 !important;
+}
+
 .project-content {
   padding: 2.5rem 2.5rem;
   column-gap: 3rem;
@@ -53,10 +57,21 @@
   .projects .swiper-slide img {
     width: 40%;
   }
+
+  .projects .section-title {
+    margin-bottom: 2.5rem;
+  }
+
+
 }
 
 @media screen and (max-width: 576px) {
   .projects .swiper-slide img {
     display: none;
+  }
+
+  .project-content {
+    padding: 2.5rem 1rem;
+    column-gap: 3rem;
   }
 }

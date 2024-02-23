@@ -16,7 +16,9 @@ const Home = () => {
               Sudeshna P.
             </h1>
             <h3 className="home-subtitle">Software Engineer</h3>
-            <p className="home-description">Hello! I'am Sudeshna Pandey. This is description for a while now please modify this!</p>
+            <span>Hello! I'am Sudeshna Pandey. </span>
+
+            <p className="home-description">Fast learner proficient at quickly grasping new concepts & technologies. </p>
 
             <a href="#expertise" className="button button-flex">My Expertise <i className="uil uil-briefcase"></i></a>
           </div>

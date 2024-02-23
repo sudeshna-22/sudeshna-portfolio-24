@@ -112,12 +112,17 @@ article p {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .experience-details-container {
+    padding-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
   article {
     font-size: 1rem;
   }
-
 
   .interest-containers {
     flex-wrap: wrap;
