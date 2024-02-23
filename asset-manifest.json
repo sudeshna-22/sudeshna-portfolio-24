@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.a25ab97f.css",
-    "main.js": "/static/js/main.c8f45ed3.js",
+    "main.css": "/static/css/main.040ef8be.css",
+    "main.js": "/static/js/main.9e8a2724.js",
     "static/js/592.88f2d889.chunk.js": "/static/js/592.88f2d889.chunk.js",
     "static/media/banner.png": "/static/media/banner.ec46bafc44960b7f80cd.png",
-    "static/media/belieff.png": "/static/media/belieff.bbd6d34954e81bae5123.png",
     "static/media/illustration.png": "/static/media/illustration.3e257f73a2025fea9710.png",
     "static/media/smritee.jpg": "/static/media/smritee.410123edc1ef922390bf.jpg",
     "static/media/aadarsh.jpg": "/static/media/aadarsh.4f99a2467bd2821de3ea.jpg",
     "static/media/Sudeshna-Pandey-CV.pdf": "/static/media/Sudeshna-Pandey-CV.f3474d5fce01859835dc.pdf",
     "static/media/priyanka.jpg": "/static/media/priyanka.2c0d9468b85241caf1a3.jpg",
     "static/media/favicon.png": "/static/media/favicon.fe9b01016d1602c40b26.png",
+    "static/media/travel.png": "/static/media/travel.16eef3fec59bec07cbc3.png",
+    "static/media/video.png": "/static/media/video.c013f258e02dea5bdbf6.png",
+    "static/media/backend.png": "/static/media/backend.1c87fc54cc70a4283c43.png",
+    "static/media/gym.png": "/static/media/gym.d75a7b1a549073c808bc.png",
     "static/media/expertise.png": "/static/media/expertise.f121942b0fa69fcfba93.png",
+    "static/media/content.png": "/static/media/content.727b56c74fd183b9c68c.png",
+    "static/media/project.png": "/static/media/project.4d9dfe0f504a8fafcb7a.png",
+    "static/media/ukulele.png": "/static/media/ukulele.187821b2bd91b86821c3.png",
     "static/media/wave.png": "/static/media/wave.2ab58f9e5458467239b1.png",
+    "static/media/frontend.png": "/static/media/frontend.ecf699898e7574326699.png",
     "index.html": "/index.html",
-    "main.a25ab97f.css.map": "/static/css/main.a25ab97f.css.map",
-    "main.c8f45ed3.js.map": "/static/js/main.c8f45ed3.js.map",
+    "main.040ef8be.css.map": "/static/css/main.040ef8be.css.map",
+    "main.9e8a2724.js.map": "/static/js/main.9e8a2724.js.map",
     "592.88f2d889.chunk.js.map": "/static/js/592.88f2d889.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a25ab97f.css",
-    "static/js/main.c8f45ed3.js"
+    "static/css/main.040ef8be.css",
+    "static/js/main.9e8a2724.js"
   ]
 }
