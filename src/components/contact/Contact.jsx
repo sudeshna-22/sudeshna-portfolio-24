@@ -26,18 +26,18 @@ const Contact = () => {
       <div className="contact-container container grid">
         <div className="contact-info grid">
           <div className="contact-container-box" onClick={() => copyToClipboard('sudeshnapandey8@gmail.com')}>
-            <i className="bx bx-award contact-icon"></i>
+            <i className="bx bxl-gmail contact-icon"></i>
             <h3 className="contact-title">Email</h3>
             <span className="contact-subtitle">sudeshnapandey8@gmail.com</span>
 
           </div>
           <div className="contact-container-box" onClick={() => copyToClipboard('+977 9860902072')}>
-            <i className="bx bx-briefcase contact-icon"></i>
+            <i className="bx bx-mobile-alt contact-icon"></i>
             <h3 className="contact-title">Mobile</h3>
             <span className="contact-subtitle">+977 9860902072</span>
           </div>
           <div className="contact-container-box" onClick={() => copyToClipboard('Kathmandu, Nepal')}>
-            <i className="bx bx-support contact-icon"></i>
+            <i className="bx bx-map contact-icon"></i>
             <h3 className="contact-title">Address</h3>
             <span className="contact-subtitle">Kathmandu, Nepal</span>
           </div>
