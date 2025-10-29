@@ -5,6 +5,14 @@ import Image3 from "../../assets/smritee.jpg";
 export const Data = [
   {
     id: 1,
+    image: Image2,
+    title: "PropertyStack: propertystack.ai",
+    description:
+      "A property management system with features such as creating reservation, multi-calendar display, payments and so on. Developed with Java for the backend and ReactJS for the frontend, the website offers a seamless UI/UX experience. ",
+    link: "https://propertystack.ai/"
+  },
+  {
+    id: 2,
     image: Image1,
     title: "Matchy: matchy.cl",
     description:
@@ -12,13 +20,14 @@ export const Data = [
     link: "https://matchy.cl/"
   },
   {
-    id: 2,
+    id: 3,
     image: Image2,
     title: "NLFS: nlfsociety.org",
     description:
       "A content management system with features such as updating posts, receiving requests/messages, and enabling secure donations. Developed with CodeIgniter PHP for the backend and Bootstrap for the frontend, the website offers a seamless UI/UX experience. ",
     link: "https://www.nlfsociety.org/"
   },
+
   // {
   //   id: 3,
   //   image: Image3,

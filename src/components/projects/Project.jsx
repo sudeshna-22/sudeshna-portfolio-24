@@ -34,7 +34,7 @@ const Project = () => {
         className="projects-container container"
       >
         {Data.map(({ id, title, description, link }) => {
-          const showViewButton = id !== 3;
+          const showViewButton = id !== 4;
           return (
             <SwiperSlide className='project-content' key={id}>
               {/* <img src={image} alt="sudeshna's img" className="project-img" /> */}

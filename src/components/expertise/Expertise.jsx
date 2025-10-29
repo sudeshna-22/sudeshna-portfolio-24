@@ -23,6 +23,12 @@ const Expertise = () => {
               </header>
 
               <div className="contents">
+                <div className="box">
+                  <span>May 2024 - Current</span>
+                  <h4>REACT DEVELOPER (SENIOR) </h4>
+                  <p>PropertyStack </p>
+                  <span>View Roles & Responsibilites &gt;</span>
+                </div>
 
                 <div className="box">
                   <span>Jan 2023 - Oct 2023</span>
@@ -49,15 +55,26 @@ const Expertise = () => {
             </section>
 
             <section className="col">
+              <header className="title">
+                <i className="bx bx-briefcase icon"></i>  <h2>Self-Learning</h2>
+              </header>
+
+              <div className="contents">
+                <div className="box">
+                  <span>2025 - Ongoing</span>
+                  <h4>AWS DEVELOPER</h4>
+                  <p>Self-Learning / Online Coursework</p>
+                  <span>Focused on cloud infrastructure, deployment, and serverless application development</span>
+                </div>
+              </div>
 
               <header className="title">
                 <i className="uil uil-graduation-cap icon"></i> <h2>Education</h2>
               </header>
 
               <div className="contents">
-
                 <div className="box">
-                  <span>2022 - Dec 2024 (EST)</span>
+                  <span>2022 - Dec 2024</span>
                   <h4>MSc. IT & APPLIED SECURITY (DATA ANALYTICS) </h4>
                   <p>Master's Degree </p>
                   <span>Islington College (London Metropolitan University)
@@ -70,13 +87,6 @@ const Expertise = () => {
                   <p>Bachelor's Degree </p>
                   <span>NAMI College (University of Northampton)
                   </span>
-                </div>
-
-                <div className="box">
-                  <span>2016 - Apr 2018 </span>
-                  <h4>+2 Science - NEB </h4>
-                  <p>High School Degree</p>
-                  <span>CCRC (Capital College & Research Center)</span>
                 </div>
 
               </div>
